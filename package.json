@@ -4,8 +4,12 @@
   "description": "nodejs backend ",
   "main": "index.js",
   "devDependencies": {
+    "babel-preset-env": "^1.6.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
     "gulp-less": "^3.3.2",
+    "gulp-min": "^0.0.2",
+    "gulp-minify": "^1.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-watch": "^4.3.11",
     "node-inspector": "^1.1.1",
@@ -20,12 +24,12 @@
     "test": "",
     "init": "",
     "pack": "gulp --gulpfile ./gulpfile.js",
-    "update"  :"git pull & cnpm install",
-    "push"    :" git add * ",
+    "update": "git pull & cnpm install",
+    "push": " git add * ",
     "publish": "node ./buitl_env/__built/publish.js",
-    "prview" : "echo prview",
-    "debug"  : "echo debug",
-    "help"   : "echo help"
+    "prview": "echo prview",
+    "debug": "echo debug",
+    "help": "echo help"
   },
   "keywords": [
     "backend"

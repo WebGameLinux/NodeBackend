@@ -6,8 +6,11 @@
  *
  * **/
 
-const app_package  = {};
+const app_package  = {
 
 
-// module.exports
+};
+
+
+// [ 导出 配置 ]
 module.exports = app_package ;
