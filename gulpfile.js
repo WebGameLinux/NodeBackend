@@ -2,7 +2,7 @@
  * create by vim
  * @author : weblinuxgame
  * @version 1.0.0
- * @descrtion config for project with gulp
+ * @description  项目 gulp 脚本
  * ***/
   const gulp 	= require('gulp');
   const path	= require('path');
@@ -10,8 +10,8 @@
   
   	
   gulp.task('default',function(callback){
-  	
-	  console.log(callback);
+
+	  console.log(callback,config);
 
   });	
   

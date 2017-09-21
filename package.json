@@ -1,4 +1,8 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "nodejs backend ",
+  "main": "index.js",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.2",
@@ -7,17 +11,21 @@
     "node-inspector": "^1.1.1",
     "pm2": "^2.7.0"
   },
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "nodejs backend ",
-  "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "express": "^4.15.4",
     "vue": "^2.4.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "",
+    "init": "",
+    "pack": "gulp --gulpfile ./gulpfile.js",
+    "update"  :"git pull & cnpm install",
+    "push"    :" git add * ",
+    "publish": "node ./buitl_env/__built/publish.js",
+    "prview" : "echo prview",
+    "debug"  : "echo debug",
+    "help"   : "echo help"
   },
   "keywords": [
     "backend"
