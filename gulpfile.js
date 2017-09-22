@@ -19,7 +19,8 @@
   	
   gulp.task('default',function(callback){
 
-	  console.log(callback,config);
+      min();
+	  console.log(callback);
 
   });	
   
