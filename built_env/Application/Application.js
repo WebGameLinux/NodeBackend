@@ -17,7 +17,10 @@ class Application
 
     setConfig(data)
     {
-
+        if('undefined'!==typeof data)
+        {
+            this.config = data;
+        }
     }
 
     getter()

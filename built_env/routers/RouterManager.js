@@ -42,3 +42,5 @@ class RouterManager
 
     }
 }
+
+module.exports = RouterManager ;
